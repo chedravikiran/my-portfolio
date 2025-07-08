@@ -11,13 +11,10 @@ const ParallaxBackground = () => {
         backgroundPosition:"bottom",
         backgroundSize:"cover",
     }}/>
-       <div/>
-          <div/>
-             <div/>
-                <div/>
-                   <div/>
+    
+     </div>
 
-        </div>
+       
         </section>
   )
 }

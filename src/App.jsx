@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from './sections/Navbar'
 import Hero from './sections/Hero'
+import About from './sections/about'
+import Projects from './sections/Projects'
 
 const App = () => {
   return (
@@ -8,7 +10,8 @@ const App = () => {
 
    <Navbar/>
      <Hero/>
-      {/* {about} */}
+     <About/>
+     <Projects/>
        {/* {projects} */}
         {/* {experience} */}
          {/* {footer} */}

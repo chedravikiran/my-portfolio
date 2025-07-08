@@ -3,6 +3,9 @@ import React from 'react'
 import HeroText from '../components/HeroText'
 import ParallaxBackground from '../components/ParallaxBackground'
 
+
+
+
 const Hero = () => {
   return (
    <section className='flex items-start justify-center md:items-start 
