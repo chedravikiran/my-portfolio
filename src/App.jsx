@@ -3,6 +3,10 @@ import Navbar from './sections/Navbar'
 import Hero from './sections/Hero'
 import About from './sections/about'
 import Projects from './sections/Projects'
+import Contact from './sections/Contact'
+import Footer from './sections/Footer'
+
+import Experiences from './sections/Experiences'
 
 const App = () => {
   return (
@@ -12,9 +16,9 @@ const App = () => {
      <Hero/>
      <About/>
      <Projects/>
-       {/* {projects} */}
-        {/* {experience} */}
-         {/* {footer} */}
+     <Experiences/>
+     <Contact/>
+      <Footer/>
     </div>
   )
 }

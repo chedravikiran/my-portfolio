@@ -2,8 +2,7 @@ import { section } from 'motion/react-client'
 import React from 'react'
 import HeroText from '../components/HeroText'
 import ParallaxBackground from '../components/ParallaxBackground'
-
-
+import { OrbitingCircles } from '../components/OrbitCircles'
 
 
 const Hero = () => {
@@ -12,6 +11,7 @@ const Hero = () => {
    md:justify-start min-h-screen overflow-hidden'>
     <HeroText/>
   <ParallaxBackground/>
+
    </section>
   )
 }
