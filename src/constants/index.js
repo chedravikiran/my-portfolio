@@ -75,9 +75,9 @@ export const myProjects = [
   },
     {
     id: 3,
-    title: "responsive Blog website",
+    title: "responsive healthcare website",
     description:
-      "The Responsive Blog Website Frontend is a modern, user-centric web interface built to showcase blog content across devices with seamless performance. Designed with clean layouts, dynamic components, and mobile-first responsiveness, this project replicates the experience of professional blogging platforms like Medium or Hashnode.",
+      "A healthcare website serves as an online hub for medical providers, clinics, hospitals, or health-related services. It integrates essential features that support patient care, education, and engagement by offering informatio about services, medical professionals, and health resources.",
     subDescription: [
       "Implemented API interactions using .NET Core for a robust backend.",
       "Designed responsive UI components with CSS3 for an enhanced UX.",
@@ -85,7 +85,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/src/assets/projects/blogwebsite.png",
+    image: "/src/assets/projects/healthcare.png",
     tags: [
       {
         id: 1,
@@ -109,11 +109,13 @@ export const myProjects = [
       },
     ],
   },
+
+
   {
     id: 4,
-    title: "movie straming app",
+    title: "food ordering site",
     description:
-      "The Movie Streaming App Frontend is a sleek and responsive web interface that emulates the user experience of modern streaming platforms like Netflix, Prime Video, or Disney+. Built for performance and usability, the app allows users to discover, browse, and view details about movies and TV shows through a visually engaging interface.",
+      "Khana is a cloud-powered, multi‑restaurant food delivery and ordering system delivered via Software as a Service (SaaS). It connects restaurants, customers, riders, and admins through a unified platform with robust tools for all user types to manage their operaations efficiently.",
     subDescription: [
       "Developed a fully interactive Single Page Application (SPA) using javascript ",
       "Implemented API interactions using .NET Core for a robust backend.",
@@ -122,7 +124,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/src/assets/projects/moviedatabase.png",
+    image: "/src/assets/projects/khana.png",
     tags: [
       {
         id: 1,

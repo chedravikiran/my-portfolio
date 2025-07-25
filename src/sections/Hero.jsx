@@ -22,7 +22,7 @@ const Hero = () => {
   <HeroText />
   <ParallaxBackground />
 <Frameworks/>
-  {/* Orbiting circles (if you want them always visible) */}
+  
  
 </section>
   )

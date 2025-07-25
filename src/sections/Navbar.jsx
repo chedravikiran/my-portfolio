@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
 import { motion } from 'motion/react';
 
+
 function Navigation(){
     return <ul className='nav-ul'>
         <li className='nav-li'>
-            <a href="Home">Home</a>
+            <a to="/home">Home</a>
         </li>
          <li className='nav-li'>
             <a href="About">About</a>
