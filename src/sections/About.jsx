@@ -1,5 +1,5 @@
 import { section } from "motion/react-client"
-import Card from "../components/card"
+import Card from "../components/Card"
 import { useRef } from "react"
 import { Globe } from "../components/globe"
 import CopyEmailButton from "../components/CopyEmailButton"
