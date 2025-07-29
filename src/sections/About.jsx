@@ -1,7 +1,7 @@
 import { section } from "motion/react-client"
 import Card from "../components/Card"
 import { useRef } from "react"
-import { Globe } from "../components/globe"
+import { Globe } from "../components/Globe"
 import CopyEmailButton from "../components/CopyEmailButton"
 import{ Frameworks }from "../components/Frameworks"
 
