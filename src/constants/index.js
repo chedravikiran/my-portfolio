@@ -1,80 +1,8 @@
 export const myProjects = [
-  {
-    id: 1,
-    title: "E-commerce Platform",
-    description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
-    subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with CSS, enhancing user experience."
-      
-    ],
-    href: "",
-    logo: "",
-    image: "/src/assets/projects/amazonclone.png",
-    tags: [
-      {
-        id: 1,
-        name: "html5",
-        path: "/src/assets/logos/html5.svg",
-      },
-      {
-        id: 2,
-        name: "javascript",
-        path: "/src/assets/logos/javascript.svg",
-      },
-      {
-        id: 3,
-        name: "css",
-        path: "/src/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/src/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "netflix clone",
-    description:
-      "The Netflix Clone is a web application that emulates the core features and user interface of the popular streaming platform, Netflix. Designed for educational and developmental purposes, this project offers a comprehensive understanding of building scalable and responsive streaming servicesand authorization system using firebase for seamless user management.",
-    subDescription: [
-      "Integrated firebase for authentication, supportin Password reset via email, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with CSS3 for a sleek user experience.",
-      "Connected to a secure tmdb database for user data storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/src/assets/projects/netflixclone.png",
-    tags: [
-      {
-        id: 1,
-        name: "css3",
-        path: "src/assets/logos/css3.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "src/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "firebase",
-        path: "/src/assets/firebase.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "src/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+
+  
     {
-    id: 3,
+    id: 1,
     title: "responsive healthcare website",
     description:
       "A healthcare website serves as an online hub for medical providers, clinics, hospitals, or health-related services. It integrates essential features that support patient care, education, and engagement by offering informatio about services, medical professionals, and health resources.",
@@ -112,7 +40,7 @@ export const myProjects = [
 
 
   {
-    id: 4,
+    id: 2,
     title: "food ordering site",
     description:
       "Khana is a cloud-powered, multi‑restaurant food delivery and ordering system delivered via Software as a Service (SaaS). It connects restaurants, customers, riders, and admins through a unified platform with robust tools for all user types to manage their operaations efficiently.",
@@ -145,6 +73,79 @@ export const myProjects = [
         id: 4,
         name: "CSS3",
         path: "src/assets/logos/css3.svg",
+      },
+    ],
+  },  {
+    id: 3,
+    title: "E-commerce Platform",
+    description:
+      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+    subDescription: [
+      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
+      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
+      "Designed a responsive frontend with CSS, enhancing user experience."
+      
+    ],
+    href: "",
+    logo: "",
+    image: "/src/assets/projects/amazonclone.png",
+    tags: [
+      {
+        id: 1,
+        name: "html5",
+        path: "/src/assets/logos/html5.svg",
+      },
+      {
+        id: 2,
+        name: "javascript",
+        path: "/src/assets/logos/javascript.svg",
+      },
+      {
+        id: 3,
+        name: "css",
+        path: "/src/assets/logos/css3.svg",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "/src/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "netflix clone",
+    description:
+      "The Netflix Clone is a web application that emulates the core features and user interface of the popular streaming platform, Netflix. Designed for educational and developmental purposes, this project offers a comprehensive understanding of building scalable and responsive streaming servicesand authorization system using firebase for seamless user management.",
+    subDescription: [
+      "Integrated firebase for authentication, supportin Password reset via email, and multi-factor authentication.",
+      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
+      "Developed a React-based frontend with CSS3 for a sleek user experience.",
+      "Connected to a secure tmdb database for user data storage.",
+    ],
+    href: "",
+    logo: "",
+    image: "/src/assets/projects/netflixclone.png",
+    tags: [
+      {
+        id: 1,
+        name: "css3",
+        path: "src/assets/logos/css3.svg",
+      },
+      {
+        id: 2,
+        name: "React",
+        path: "src/assets/logos/react.svg",
+      },
+      {
+        id: 3,
+        name: "firebase",
+        path: "/src/assets/firebase.svg",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "src/assets/logos/tailwindcss.svg",
       },
     ],
   },
